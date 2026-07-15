@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bad Pixels</string>
     <string name="info">Swipe on screen to change color</string>
     <string name="version">App Version:</string>
     <string name="build">Build</string>
+    <string name="version_display" translatable="false">%1$s %2$s (%3$s %4$d)</string>
 </resources>
