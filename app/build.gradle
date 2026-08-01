@@ -10,7 +10,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "tk.al54.dev.badpixels"
+        applicationId "org.thayyil.badpixels"
         minSdk 23
         targetSdk 37
         versionCode 4
