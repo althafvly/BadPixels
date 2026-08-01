@@ -1,28 +1,30 @@
-# Bad Pixel Detector [![Android Build](https://github.com/SibDev/BadPixels/actions/workflows/build.yml/badge.svg)](https://github.com/SibDev/BadPixels/actions/workflows/build.yml)
+# Bad Pixel
 
-## Bad Pixel — application for check of the screen on existence of "Bad pixels".
+**Bad Pixel** is a simple application that helps you check your display for defective (dead or stuck) pixels.
 
-Bad pixels (BadPixels) — simple application for check of the screen on existence of so-called "Dead pixels".
-Bad pixels, and the also defective pixels call defect of the electronic device which is perceiving or reproducing the image and having pixel structure.
-[Is more detailed](https://en.wikipedia.org/wiki/Defective_pixel)
+A defective pixel is a display pixel that does not function correctly, causing it to remain permanently on, permanently off, or display an incorrect color. Learn more on the [Defective Pixel](https://en.wikipedia.org/wiki/Defective_pixel) Wikipedia page.
 
-This application allows to reveal 2 types of beaten pixels — permanently the burning pixels and permanently not burning pixels. Check is made on 8 flowers:
-* black,
-* red,
-* green,
-* blue,
-* cyan,
-* magenta,
-* yellow,
-* white
-the RGB, CMYK color spaces and white color.
+The app displays a series of solid colors to help identify two common types of pixel defects:
+- **Dead pixels** (permanently unlit)
+- **Stuck pixels** (permanently lit)
 
-**INSTRUCTION:**
+The following test colors are available:
+- Black
+- Red
+- Green
+- Blue
+- Cyan
+- Magenta
+- Yellow
+- White
 
-1. Carefully wipe the screen of phone or a pad a soft rag, or a napkin from dirt, dust, spots of fat and other pollution;
-2. Start application;
-3. Simply swipe left or right to go to the next color or previous color;
-4. On every color you watch closely a screen monochromaticism in all points. By normal operation on all flowers all pixels of the screen shall be one color. If color of pixel differs on any color, this pixel beaten means.
+These colors cover the RGB and CMY color spectrum, along with black and white, making it easy to spot display defects.
 
-For obtaining more detailed information address to the [ISO_13406-2 standard](https://en.wikipedia.org/wiki/ISO_13406-2).
+## Instructions
 
+1. Clean your screen with a soft microfiber cloth to remove dust, fingerprints, and smudges.
+2. Launch the application.
+3. Swipe left or right to switch between the test colors.
+4. Carefully inspect the entire display. Each screen should appear as a uniform, solid color. If you notice a pixel that remains black, stays lit, or displays a different color than the rest of the screen, it may be defective.
+
+For more information about display defects and pixel quality standards, see the [ISO 13406-2](https://en.wikipedia.org/wiki/ISO_13406-2) standard.
